@@ -4,7 +4,6 @@
 //
 //  Created by DamonLiu on 15/7/16.
 //  Copyright (c) 2015年 DamonLiu. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"

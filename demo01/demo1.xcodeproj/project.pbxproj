@@ -13,23 +13,18 @@
 		504AC7001B57C9DB0028FD4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504AC6FE1B57C9DB0028FD4F /* Main.storyboard */; };
 		504AC7021B57C9DB0028FD4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504AC7011B57C9DB0028FD4F /* Images.xcassets */; };
 		504AC7051B57C9DB0028FD4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504AC7031B57C9DB0028FD4F /* LaunchScreen.xib */; };
-		504AC7111B57C9DB0028FD4F /* demo01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504AC7101B57C9DB0028FD4F /* demo01Tests.m */; };
-		504AC71B1B57CB980028FD4F /* laptop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 504AC71A1B57CB980028FD4F /* laptop.jpg */; };
-		506849DA1B5CDFBA00BB3439 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506849D91B5CDFBA00BB3439 /* Default@2x.png */; };
+		509DC27D1B61DDF800BBED65 /* 冲田总悟.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509DC27C1B61DDF800BBED65 /* 冲田总悟.jpg */; };
+		509DC2811B61E9DD00BBED65 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509DC27F1B61E9DD00BBED65 /* PictureViewController.m */; };
+		509DC2821B61E9DD00BBED65 /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 509DC2801B61E9DD00BBED65 /* PictureViewController.xib */; };
+		50C8F3321B672BFC00515065 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C8F3311B672BFC00515065 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		50C8F3361B67527D00515065 /* DLKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C8F3351B67527D00515065 /* DLKeyChain.m */; };
+		50C8F33D1B675EC000515065 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C8F33B1B675EC000515065 /* icon.png */; };
+		50C8F33E1B675EC000515065 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C8F33C1B675EC000515065 /* icon@2x.png */; };
+		50C8F3421B67601C00515065 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C8F3411B67601C00515065 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		504AC70B1B57C9DB0028FD4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 504AC6E91B57C9DB0028FD4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 504AC6F01B57C9DB0028FD4F;
-			remoteInfo = demo01;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		504AC6F11B57C9DB0028FD4F /* demo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504AC6F11B57C9DB0028FD4F /* demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		504AC6F51B57C9DB0028FD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504AC6F61B57C9DB0028FD4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		504AC6F81B57C9DB0028FD4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,11 +34,19 @@
 		504AC6FF1B57C9DB0028FD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		504AC7011B57C9DB0028FD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		504AC7041B57C9DB0028FD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		504AC70A1B57C9DB0028FD4F /* demo01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		504AC70F1B57C9DB0028FD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504AC7101B57C9DB0028FD4F /* demo01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo01Tests.m; sourceTree = "<group>"; };
-		504AC71A1B57CB980028FD4F /* laptop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = laptop.jpg; path = ../../../../Downloads/laptop.jpg; sourceTree = "<group>"; };
-		506849D91B5CDFBA00BB3439 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../../Pictures/Default@2x.png"; sourceTree = "<group>"; };
+		509DC27C1B61DDF800BBED65 /* 冲田总悟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "冲田总悟.jpg"; path = "../../../../../Pictures/冲田总悟.jpg"; sourceTree = "<group>"; };
+		509DC27E1B61E9DD00BBED65 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		509DC27F1B61E9DD00BBED65 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		509DC2801B61E9DD00BBED65 /* PictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
+		50C8F3301B672BFC00515065 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenUDID.h; path = "../../../../OpenUDID-master/OpenUDID.h"; sourceTree = "<group>"; };
+		50C8F3311B672BFC00515065 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenUDID.m; path = "../../../tuniuapp-iphone/Iphone/TuNiuApp/Vendor/OpenUDID/OpenUDID.m"; sourceTree = "<group>"; };
+		50C8F3341B67527D00515065 /* DLKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLKeyChain.h; sourceTree = "<group>"; };
+		50C8F3351B67527D00515065 /* DLKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLKeyChain.m; sourceTree = "<group>"; };
+		50C8F33B1B675EC000515065 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../../Pictures/icon.png; sourceTree = "<group>"; };
+		50C8F33C1B675EC000515065 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../../../../Pictures/icon@2x.png"; sourceTree = "<group>"; };
+		50C8F3411B67601C00515065 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../../../Pictures/Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,30 +57,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		504AC7071B57C9DB0028FD4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		503B00411B67144A003BA5D3 /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				50C8F3301B672BFC00515065 /* OpenUDID.h */,
+				50C8F3311B672BFC00515065 /* OpenUDID.m */,
+			);
+			name = UUID;
+			sourceTree = "<group>";
+		};
 		504AC6E81B57C9DB0028FD4F = {
 			isa = PBXGroup;
 			children = (
 				504AC6F31B57C9DB0028FD4F /* demo01 */,
 				504AC70D1B57C9DB0028FD4F /* demo01Tests */,
 				504AC6F21B57C9DB0028FD4F /* Products */,
+				71C29649E511757CC5538A6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		504AC6F21B57C9DB0028FD4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				504AC6F11B57C9DB0028FD4F /* demo01.app */,
-				504AC70A1B57C9DB0028FD4F /* demo01Tests.xctest */,
+				504AC6F11B57C9DB0028FD4F /* demo1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +90,8 @@
 		504AC6F31B57C9DB0028FD4F /* demo01 */ = {
 			isa = PBXGroup;
 			children = (
+				50C8F3331B67526200515065 /* KeyChain */,
+				503B00411B67144A003BA5D3 /* UUID */,
 				504AC6F81B57C9DB0028FD4F /* AppDelegate.h */,
 				504AC6F91B57C9DB0028FD4F /* AppDelegate.m */,
 				504AC6FB1B57C9DB0028FD4F /* ViewController.h */,
@@ -93,6 +100,9 @@
 				504AC7011B57C9DB0028FD4F /* Images.xcassets */,
 				504AC7031B57C9DB0028FD4F /* LaunchScreen.xib */,
 				504AC6F41B57C9DB0028FD4F /* Supporting Files */,
+				509DC27E1B61E9DD00BBED65 /* PictureViewController.h */,
+				509DC27F1B61E9DD00BBED65 /* PictureViewController.m */,
+				509DC2801B61E9DD00BBED65 /* PictureViewController.xib */,
 			);
 			path = demo01;
 			sourceTree = "<group>";
@@ -100,8 +110,10 @@
 		504AC6F41B57C9DB0028FD4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				506849D91B5CDFBA00BB3439 /* Default@2x.png */,
-				504AC71A1B57CB980028FD4F /* laptop.jpg */,
+				50C8F3411B67601C00515065 /* Default@2x.png */,
+				50C8F33B1B675EC000515065 /* icon.png */,
+				50C8F33C1B675EC000515065 /* icon@2x.png */,
+				509DC27C1B61DDF800BBED65 /* 冲田总悟.jpg */,
 				504AC6F51B57C9DB0028FD4F /* Info.plist */,
 				504AC6F61B57C9DB0028FD4F /* main.m */,
 			);
@@ -125,43 +137,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50C8F3331B67526200515065 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				50C8F3341B67527D00515065 /* DLKeyChain.h */,
+				50C8F3351B67527D00515065 /* DLKeyChain.m */,
+			);
+			name = KeyChain;
+			sourceTree = "<group>";
+		};
+		71C29649E511757CC5538A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		504AC6F01B57C9DB0028FD4F /* demo01 */ = {
+		504AC6F01B57C9DB0028FD4F /* demo1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 504AC7141B57C9DB0028FD4F /* Build configuration list for PBXNativeTarget "demo01" */;
+			buildConfigurationList = 504AC7141B57C9DB0028FD4F /* Build configuration list for PBXNativeTarget "demo1" */;
 			buildPhases = (
+				7ACD3E4A357EEF4AF302964C /* Check Pods Manifest.lock */,
 				504AC6ED1B57C9DB0028FD4F /* Sources */,
 				504AC6EE1B57C9DB0028FD4F /* Frameworks */,
 				504AC6EF1B57C9DB0028FD4F /* Resources */,
+				42BAFA90AB1A0D0A7A36585F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = demo01;
+			name = demo1;
 			productName = demo01;
-			productReference = 504AC6F11B57C9DB0028FD4F /* demo01.app */;
+			productReference = 504AC6F11B57C9DB0028FD4F /* demo1.app */;
 			productType = "com.apple.product-type.application";
-		};
-		504AC7091B57C9DB0028FD4F /* demo01Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 504AC7171B57C9DB0028FD4F /* Build configuration list for PBXNativeTarget "demo01Tests" */;
-			buildPhases = (
-				504AC7061B57C9DB0028FD4F /* Sources */,
-				504AC7071B57C9DB0028FD4F /* Frameworks */,
-				504AC7081B57C9DB0028FD4F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				504AC70C1B57C9DB0028FD4F /* PBXTargetDependency */,
-			);
-			name = demo01Tests;
-			productName = demo01Tests;
-			productReference = 504AC70A1B57C9DB0028FD4F /* demo01Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -175,13 +187,9 @@
 					504AC6F01B57C9DB0028FD4F = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					504AC7091B57C9DB0028FD4F = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 504AC6F01B57C9DB0028FD4F;
-					};
 				};
 			};
-			buildConfigurationList = 504AC6EC1B57C9DB0028FD4F /* Build configuration list for PBXProject "demo01" */;
+			buildConfigurationList = 504AC6EC1B57C9DB0028FD4F /* Build configuration list for PBXProject "demo1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,8 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				504AC6F01B57C9DB0028FD4F /* demo01 */,
-				504AC7091B57C9DB0028FD4F /* demo01Tests */,
+				504AC6F01B57C9DB0028FD4F /* demo1 */,
 			);
 		};
 /* End PBXProject section */
@@ -205,22 +212,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C8F3421B67601C00515065 /* Default@2x.png in Resources */,
 				504AC7001B57C9DB0028FD4F /* Main.storyboard in Resources */,
-				504AC71B1B57CB980028FD4F /* laptop.jpg in Resources */,
+				50C8F33E1B675EC000515065 /* icon@2x.png in Resources */,
+				50C8F33D1B675EC000515065 /* icon.png in Resources */,
+				509DC2821B61E9DD00BBED65 /* PictureViewController.xib in Resources */,
 				504AC7051B57C9DB0028FD4F /* LaunchScreen.xib in Resources */,
 				504AC7021B57C9DB0028FD4F /* Images.xcassets in Resources */,
-				506849DA1B5CDFBA00BB3439 /* Default@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		504AC7081B57C9DB0028FD4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				509DC27D1B61DDF800BBED65 /* 冲田总悟.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42BAFA90AB1A0D0A7A36585F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACD3E4A357EEF4AF302964C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		504AC6ED1B57C9DB0028FD4F /* Sources */ = {
@@ -228,28 +264,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				504AC6FD1B57C9DB0028FD4F /* ViewController.m in Sources */,
+				509DC2811B61E9DD00BBED65 /* PictureViewController.m in Sources */,
 				504AC6FA1B57C9DB0028FD4F /* AppDelegate.m in Sources */,
+				50C8F3361B67527D00515065 /* DLKeyChain.m in Sources */,
 				504AC6F71B57C9DB0028FD4F /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		504AC7061B57C9DB0028FD4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				504AC7111B57C9DB0028FD4F /* demo01Tests.m in Sources */,
+				50C8F3321B672BFC00515065 /* OpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		504AC70C1B57C9DB0028FD4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 504AC6F01B57C9DB0028FD4F /* demo01 */;
-			targetProxy = 504AC70B1B57C9DB0028FD4F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		504AC6FE1B57C9DB0028FD4F /* Main.storyboard */ = {
@@ -355,10 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = demo01/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = demo1;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -366,51 +391,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = demo01/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		504AC7181B57C9DB0028FD4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = demo01Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo01.app/demo01";
-			};
-			name = Debug;
-		};
-		504AC7191B57C9DB0028FD4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = demo01Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo01.app/demo01";
+				PRODUCT_NAME = demo1;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		504AC6EC1B57C9DB0028FD4F /* Build configuration list for PBXProject "demo01" */ = {
+		504AC6EC1B57C9DB0028FD4F /* Build configuration list for PBXProject "demo1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				504AC7121B57C9DB0028FD4F /* Debug */,
@@ -419,20 +412,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		504AC7141B57C9DB0028FD4F /* Build configuration list for PBXNativeTarget "demo01" */ = {
+		504AC7141B57C9DB0028FD4F /* Build configuration list for PBXNativeTarget "demo1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				504AC7151B57C9DB0028FD4F /* Debug */,
 				504AC7161B57C9DB0028FD4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		504AC7171B57C9DB0028FD4F /* Build configuration list for PBXNativeTarget "demo01Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				504AC7181B57C9DB0028FD4F /* Debug */,
-				504AC7191B57C9DB0028FD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
