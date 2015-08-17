@@ -14,36 +14,41 @@
 @property (strong, nonatomic) UIColor* bgColor;
 @end
 
-@implementation ViewController
+@implementation ViewController{
+    NSString* key;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self addObserver:self forKeyPath:@"bgColor" options:NSKeyValueObservingOptionNew context:nil];
-    
+    key = @"bgColor";
+    [self addObserver:self forKeyPath:key options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)changeColorButtonPressed:(id)sender {
     UIColor* randomColor = [ViewController randomColor];
-//    _bgColor = randomColor;
     [self setValue:randomColor forKey:@"bgColor"];
     [self.bgView setBackgroundColor:randomColor];
 }
 
-+(UIColor *) randomColor
-{
++(UIColor *) randomColor {
     CGFloat hue = ( arc4random() % 256 / 256.0 ); //0.0 to 1.0
     CGFloat saturation = ( arc4random() % 128 / 256.0 ) + 0.5; // 0.5 to 1.0,away from white
     CGFloat brightness = ( arc4random() % 128 / 256.0 ) + 0.5; //0.5 to 1.0,away from black
     return [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
-
 }
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Warning" message:@"Color Changed" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
+}
+
+-(void)dealloc{
+    [self removeObserver:self forKeyPath:key];
 }
 @end

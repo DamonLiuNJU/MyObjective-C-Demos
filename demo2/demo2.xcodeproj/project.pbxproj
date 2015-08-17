@@ -14,7 +14,7 @@
 		504646EE1B58F16B000DD105 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504646ED1B58F16B000DD105 /* Images.xcassets */; };
 		504646F11B58F16B000DD105 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504646EF1B58F16B000DD105 /* LaunchScreen.xib */; };
 		504646FD1B58F16B000DD105 /* demo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504646FC1B58F16B000DD105 /* demo2Tests.m */; };
-		504647071B58F391000DD105 /* laptop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 504647061B58F391000DD105 /* laptop.jpg */; };
+		50F20E2D1B7CB23800173C7E /* laptop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F20E2C1B7CB23800173C7E /* laptop.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		504646F61B58F16B000DD105 /* demo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		504646FB1B58F16B000DD105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504646FC1B58F16B000DD105 /* demo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo2Tests.m; sourceTree = "<group>"; };
-		504647061B58F391000DD105 /* laptop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = laptop.jpg; path = ../../../../Downloads/laptop.jpg; sourceTree = "<group>"; };
+		50F20E2C1B7CB23800173C7E /* laptop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 		504646E01B58F16B000DD105 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				504647061B58F391000DD105 /* laptop.jpg */,
+				50F20E2C1B7CB23800173C7E /* laptop.jpg */,
 				504646E11B58F16B000DD105 /* Info.plist */,
 				504646E21B58F16B000DD105 /* main.m */,
 			);
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				504646EC1B58F16B000DD105 /* Main.storyboard in Resources */,
-				504647071B58F391000DD105 /* laptop.jpg in Resources */,
+				50F20E2D1B7CB23800173C7E /* laptop.jpg in Resources */,
 				504646F11B58F16B000DD105 /* LaunchScreen.xib in Resources */,
 				504646EE1B58F16B000DD105 /* Images.xcassets in Resources */,
 			);

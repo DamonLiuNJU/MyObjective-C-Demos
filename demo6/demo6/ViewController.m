@@ -14,7 +14,7 @@
 @end
 
 static int angle = 0;
-static float delta = 90;
+static float delta = M_PI;
 static float DURATION = 0.3;
 
 
@@ -82,7 +82,7 @@ static CGRect FRAME;
     [UIView setAnimationDuration:DURATION];
     angle += delta;
     self.cube.transform = CGAffineTransformMakeRotation(angle);
-    self.cube.transform = CGAffineTransformMakeRotation(angle);
+//    self.cube.transform = CGAffineTransformMakeRotation(angle);
     [UIView commitAnimations];
 }
 

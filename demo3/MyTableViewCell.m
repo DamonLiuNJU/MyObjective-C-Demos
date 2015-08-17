@@ -11,7 +11,7 @@
 @implementation MyTableViewCell
 
 
--(id)initWithTitle:(NSString *)title{
+-(instancetype)initWithTitle:(NSString *)title{
     if(self = [super init]){
         [self.textLabel setText:title];
     }

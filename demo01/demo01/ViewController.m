@@ -14,12 +14,13 @@
 static int LIMIT = 4; //if limit is n , then the actually input times are n+1.
 
 @interface ViewController ()<UIAlertViewDelegate,UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UIButton *button;
 
+@property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UITextView *textArea;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
-- (IBAction)buttonPressed:(id)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)buttonPressed:(id)sender;
 
 @end
 

@@ -44,7 +44,7 @@
     
 }
 
-#pragma mark BPageDelegate
+#pragma mark - BPageDelegate
 -(void)passValue:(NSString *)value{
     [[self label] setText:value];
 }

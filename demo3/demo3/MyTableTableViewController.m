@@ -39,7 +39,7 @@ static NSString* identifier;
     dataSource = [NSArray arrayWithArray:temp];
     
     
-    if([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+    if([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
     {
         CGRect rect = mytableview.frame;
         rect.origin.y += 100;

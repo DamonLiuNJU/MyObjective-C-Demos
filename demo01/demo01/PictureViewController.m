@@ -21,12 +21,10 @@
     UINavigationController* nav = self.navigationController;
     if(nav == nil){
         nav = [UINavigationController new];
-//        self.navigationController = nav;
     }
     [nav setNavigationBarHidden:false animated:YES];
     nav.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"back" style:UIBarButtonItemStylePlain target:self action:@selector(backTo)];
     [self.uuidlabel setText:[DLKeyChain load]];
-    
 }
 
 -(void)viewWillDisappear:(BOOL)animated{

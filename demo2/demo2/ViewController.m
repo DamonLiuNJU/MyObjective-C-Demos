@@ -66,9 +66,9 @@ static float CORNER_RADIUS = 6;
 //    float result = 1.0f - height/total_height;
 //    [self.topStillView setAlpha:result];
 //}
-
+//TODO
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    float height = scrollView.contentOffset.y;
+    CGFloat height = scrollView.contentOffset.y;
     float total_height = scrollView.contentSize.height;
     float result = height/total_height*2;
     [self.topStillView setAlpha:result];
