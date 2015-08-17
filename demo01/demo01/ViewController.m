@@ -52,6 +52,7 @@ static int LIMIT = 4; //if limit is n , then the actually input times are n+1.
                                              selector:@selector(keyboardWillHide:)
                                                  name:UIKeyboardWillHideNotification
                                                object:nil];
+    //test 2
     
 }
 
